@@ -1,0 +1,27 @@
+﻿@model double?
+
+@{
+    ViewData["Title"] = "BMI Calculator";
+}
+
+<div class="text-center">
+    <h1 class="display-4">BMI Calculator</h1>
+    <form id="bmiForm" method="post" asp-controller="BMI" asp-action="Calculate">
+        <label for="weight">Weight (kg): </label>
+        <input type="text" name="weight" id="weight" required/><br />
+
+        <label for="height">Height (m): </label>
+        <input type="text" name="height" id="height" required /><br />
+
+        <input type="submit" value="Calculate BMI" />
+    </form>
+
+    @if (Model.HasValue)
+    {
+        <p id="result">Your BMI is @Model.Value</p>
+    }
+    @if (ViewData["Error"] != null)
+    {
+        <p class="text-danger">@ViewData["Error"]</p>
+    }
+</div>

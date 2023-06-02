@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI calculator with Jquery"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI Calculator with JQuery Real", "..\BMI Calculator with JQuery Real\BMI Calculator with JQuery Real.csproj", "{03586002-B0C8-41FE-8180-7EFDADEB6A30}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bmi calc with jquery folder", "bmi calc with jquery folder", "{CF26DE37-4B14-4776-8DC3-092069BAA611}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{03586002-B0C8-41FE-8180-7EFDADEB6A30} = {CF26DE37-4B14-4776-8DC3-092069BAA611}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B0588B0-CD33-46E6-915B-89783BD4E5B6}
